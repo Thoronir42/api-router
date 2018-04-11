@@ -305,7 +305,7 @@ class ApiRoute extends ApiRouteSpec implements IRouter
 
 		$url = $httpRequest->getUrl();
 
-		$path = $url->getPath();
+		$path = $url->getPathInfo();
 
 		/**
 		 * Build path mask
